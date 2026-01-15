@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <!-- Изменил title на соответствующий странице -->
+  @@include('html/head.html', { 'title': 'A Nossa Classificação' })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      <!-- Добавляем класс text-page, чтобы применить те же стили -->
+      <main class="page text-page">
+        <div class="text-page__container">
+          <!-- Вы можете изменить заголовок на "Sobre Nós" (О нас), если это больше подходит -->
+          <h1>Sobre Nós:</h1>
+
+          <p>
+            Criado com o objetivo de guiar os jogadores portugueses na escolha
+            de plataformas confiáveis, o fornece conteúdos claros, atualizados e
+            independentes.
+          </p>
+
+          <p>A nossa equipa avalia:</p>
+          <ul>
+            <li>Licenciamento e regulamentação dos operadores</li>
+            <li>Qualidade da oferta de jogos</li>
+            <li>Condições de bónus e promoções</li>
+            <li>Métodos de pagamento disponíveis</li>
+            <li>Atendimento e suporte ao cliente</li>
+          </ul>
+
+          <p>
+            Operamos com total independência editorial e não temos ligações
+            diretas a operadores. Não recolhemos fundos nem dados sensíveis dos
+            utilizadores.
+          </p>
+        </div>
+
+      </main>
+      @@include('html/footer.html', {})
+    </div>
+    @@include('html/script.html', {})
+  </body>
+</html>

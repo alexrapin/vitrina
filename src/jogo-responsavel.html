@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <!-- Изменил title на соответствующий странице -->
+  @@include('html/head.html', { 'title': 'Jogo Responsável' })
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html', {})
+      <!-- Добавляем класс text-page, чтобы применить те же стили -->
+      <main class="page text-page">
+        <div class="text-page__container">
+          <h1>Jogo Responsável – Jogue Conscientemente</h1>
+
+          <p>Jogar deve ser divertido. Para manter o controlo do seu jogo:</p>
+          <ul>
+            <li>Estabeleça limites para os depósitos e tempo de jogo;</li>
+            <li>
+              Evite apostar em momentos stressantes ou com grande carga
+              emocional;
+            </li>
+            <li>Não utilize dinheiro emprestado para jogar;</li>
+            <li>Faça pausas regulares durante as sessões de jogo.</li>
+          </ul>
+
+          <h2>Sinais de comportamentos de risco</h2>
+          <p>Preste atenção se você ou alguém próximo de si:</p>
+          <ul>
+            <li>Esconde os seus hábitos de jogo dos familiares ou amigos;</li>
+            <li>Tenta compensar as perdas com novas apostas;</li>
+            <li>
+              Coloca o jogo acima das responsabilidades pessoais ou
+              profissionais.
+            </li>
+          </ul>
+
+          <h2>Onde obter ajuda</h2>
+          <p>
+            Se o jogo começar a afetar negativamente a sua vida, utilize o
+            suporte:
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://jogoresponsavel.pt/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >jogoresponsavel.pt</a
+              >
+            </li>
+            <li>Linha de apoio SOS: 1414</li>
+            <li>
+              <a
+                href="https://www.jogadoresanonimos.org.pt/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jogadores Anónimos Portugal</a
+              >
+            </li>
+          </ul>
+
+          <p>
+            Todos os operadores apresentados na plataforma oferecem ferramentas
+            de autocontrolo, incluindo limites de depósito e a possibilidade de
+            autoexclusão para um jogo seguro.
+          </p>
+        </div>
+
+      </main>
+      @@include('html/footer.html', {})
+    </div>
+    @@include('html/script.html', {})
+  </body>
+</html>
